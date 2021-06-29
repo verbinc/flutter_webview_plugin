@@ -8,10 +8,10 @@ authors:
 - Rafal Wachol <gorudonu@gmail.com>
 homepage: https://github.com/dart-flitter/flutter_webview_plugin
 version: 0.3.10+1
-maintainer: Rafal Wachol (@RafalWachol) 
+maintainer: Rafal Wachol (@RafalWachol)
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 flutter:
   plugin:
@@ -23,6 +23,7 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  mockito: ^4.1.0
+#  change the plugin here because I refer to the commit of null-safety imgration of official flutter_webview_plugin
+  mocktail: ^0.1.1
   flutter_test:
     sdk: flutter

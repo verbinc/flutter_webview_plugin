@@ -23,7 +23,6 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-#  change the plugin here because I refer to the commit of null-safety imgration of official flutter_webview_plugin
   mocktail: ^0.1.1
   flutter_test:
     sdk: flutter
